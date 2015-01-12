@@ -1,0 +1,108 @@
+To install Sublime-Text-2:
+1.sudo add-apt-repository ppa:webupd8team/sublime-text-2
+2.sudo apt-get update
+3.sudo apt-get install sublime-text
+To install Sublime-Text-3:
+1.sudo add-apt-repository ppa:webupd8team/sublime-text-3
+2.sudo apt-get update
+3.sudo apt-get install sublime-text-installer
+Usage of sublime
+1.rails new sample
+2.cd sample # navigate to your proect irectory
+3.subl .
+To install mysql in ubuntu
+sudo apt-get install mysql-server
+To restart mysql server
+sudo service mysql restart
+To stop mysql server
+sudo service mysql stop
+To install mysql query tunner
+sudo apt-get install mysqltuner
+To run mysql query tunner:
+mysqltune
+To login in mysql database
+mysql -u root -p
+Some use mysql commands
+show databases;
+use database_name;
+show databases;
+show tables;
+Steps to install git on ubuntu
+1. install development tolls
+sudo apt-get install libcurl4-gnutls-dev libexpat1-dev gettext libz-dev libssl-dev build-essential
+2.install git
+sudo apt-get install git-core
+3. configure the git usename and email id(sudo nano ~/.gitconfig)
+git config --global user.name "yadagiri1125"
+git config --global user.email yadagiri1125@example.com
+4.git config --list
+1. rvm instllation
+1.sudo apt-get install curl #it will install curl
+2.\curl -sSL https://get.rvm.io | bash -s stable
+3.gpg --keyserver hkp://keys.gnupg.net --recv-keys D39DC0E3 #if you get error in step2
+2. ruby version on it
+rvm -v -- give version of rvm insalled
+rvm list -- list all the ruby versions installed on ubunu machine
+rvm install 1.9.3 -- installs ruby version 1.9.3
+rvm install 1.8.7 --
+rvm install 2.0.0 --
+rvm list
+rvm use 1.9.3 -- used select ruby version 1.9.3
+ruby -v -- it will gives 1.9.3
+rvm use 2.0.0
+ruby -v --it will give 2.0.0
+rvm use 1.8.7
+ruby -v -- will give 1.8.7
+1. install 2.3.5,3.2.3,4.0.0 rails versions in ruby 1.9.3 by creating proper gemsets
+rvm use 1.9.3 -- used select ruby 1.9.3
+rvm gemset create rails2 -- create a gemset for rails2
+rvm gemset use rails2 -- select the gemset for rails2
+gem install rails -v '2.3.5'
+rvm gemset create rails3 -- create a gemset for rails3
+rvm gemset use rails3 -- select the gemset for rails3
+gem install rails -v '3.2.3'
+rvm gemset create rails4 -- create a gemset for rails2
+rvm gemset use rails4 -- select the gemset for rails2
+gem install rails -v '4.0.0'
+2. inatsall 3.2.3 , 4.0.0,4.1.0 rails versions in ruby 2.0.0 using proper gemsets
+3. install 2.3.5, 2.8.7 and 3.0.0 rails versions in ruby 1.8.7 using proper gemsets
+3.installation of rails versions
+4.installation of mysql and postgres
+5. installations of ides like rubymine,netbeans,sublime
+#git commands
+git init -- to initialize empty git repository
+git status -- to the status of orking directory
+git add . -- used to add untracked files
+git commit -am "messagehere" -- this command is used to commit the changes
+git push origin branch_name -- used to push locally commited changes to specific branch
+git branch --all -- lists all the branches in the repository
+git branch -- will gives list of active branches
+git checkout branch_name -- it switch branch_name branch
+git checkout -b branch_name1 -- create creates a new branch called branch_name1 and selects that branch
+git push origin branch_name -- it will pushes code to branch_name branch
+git diff file_name -- lists changes made to file_name file
+git checkout branch_name -- used to switch to branch_name branch
+git stash -- it stashes local changes
+git stash list -- it lists all the stashes
+git stash clear -- it will removes all the stashes
+git stash save -- it will saves local changes to stash list
+git stash apply -- it will stashed local changes
+git checkout master
+git merge --no-ff heroku_commands -- will merges heroku_command branch to master branch
+Notes to contribute this proect
+git clone https://github.com/yadagiri1125/dails_updates.git
+cd dails_updates
+git checkout -b your_branch
+## make some changes
+git add .
+git commit -am "add proper message"
+git push origin your_branch
+
+    Status
+    API
+    Training
+    Shop
+    Blog
+    About
+
+
